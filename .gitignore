@@ -1,0 +1,24 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+image_classifier/
+
+# Ignore datasets
+data/
+
+# Ignore models (large files)
+models/*.pt
+models/*.onnx
+
+# Ignore logs
+logs/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Docker build files
+.dockerignore
