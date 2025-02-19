@@ -8,6 +8,7 @@ __pycache__/
 venv/
 
 # Ignore datasets
+dataset/
 data/
 
 # Ignore models (large files)
@@ -22,3 +23,5 @@ logs/
 
 # Ignore Docker build files
 .dockerignore
+
+*.zip
